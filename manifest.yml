@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: patrice-app2
+  host: patrice-app2
+  disk_quota: 1024M
+  services:
+  - performance-monitoring-auto
